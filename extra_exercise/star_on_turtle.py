@@ -11,6 +11,5 @@ for i in range(5):
     nanny.forward(200)
     nanny.right(144)
 
-
 screen = Screen()
 screen.exitonclick()
