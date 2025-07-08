@@ -1,8 +1,8 @@
-#  Tip Calculator
+# Tip Calculator
 
 A simple command-line Python app that helps you split a restaurant bill among friends, including the tip.
 
-##  Features
+## Features
 
 - Takes user input for:
 - Total bill amount
@@ -10,10 +10,8 @@ A simple command-line Python app that helps you split a restaurant bill among fr
 - Number of people
 - Calculates and displays how much each person should pay
 
-##  Screenshot
+## Screenshot
 
 Here's how the tip calculator looks in action:
 
-![Tip Calculator Example](images/tip_example.png)
-
-
+![Tip Calculator final result](image.png)
