@@ -14,4 +14,4 @@ A simple command-line Python app that helps you split a restaurant bill among fr
 
 Here's how the tip calculator looks in action:
 
-![Tip Calculator final result](image.png)
+![Tip Calculator final result](tip_example.png)
