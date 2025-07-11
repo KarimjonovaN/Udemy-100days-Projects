@@ -1,4 +1,4 @@
-#✊🏻✋🏻✌🏻 Rock, Paper, Scissors – Python Game
+## ✊🏻✋🏻✌🏻 Rock, Paper, Scissors – Python Game
 
 A simple command-line version of Rock, Paper, Scissors where you play against the computer.
 
@@ -19,4 +19,5 @@ A simple command-line version of Rock, Paper, Scissors where you play against th
 ## Screenshot
 
 ![Rock, Paper, SCissors final result](rock_paper_scissors.png)
+
 
