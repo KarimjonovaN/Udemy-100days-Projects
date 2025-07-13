@@ -38,9 +38,9 @@ while game_is_on:
 
     #detect collision with r_paddle
     if ball.distance(r_puddle) < 50 and ball.xcor() > 320 or ball.distance(l_puddle) < 50 and ball.xcor() < -320:
-        print(f"{ball.xcor()}  {ball.ycor()} ")
-        print(f"{r_puddle.xcor()} {r_puddle.ycor()}")
-        print(f"{l_puddle.xcor()} {l_puddle.ycor()}")
+        # print(f"{ball.xcor()}  {ball.ycor()} ")
+        # print(f"{r_puddle.xcor()} {r_puddle.ycor()}")
+        # print(f"{l_puddle.xcor()} {l_puddle.ycor()}")
         ball.bounce_x()
 
     if ball.xcor() > 380:
