@@ -21,4 +21,4 @@ This is a simple **Password Manager** application built using Python and Tkinter
 
 ##  Screenshot
 
-![App Screenshot](screenshot.png)
+![App Screenshot](Screenshot.png)
