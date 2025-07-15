@@ -4,11 +4,11 @@ import pandas
 """Print blank state img"""
 screen = turtle.Screen()
 screen.title("U.S. State Game")
-image = "blank_states_img.gif"
+image = "day_25_projects/blank_states_img.gif"
 turtle.addshape(image)
 turtle.shape(image)
 
-data = pandas.read_csv("50_states.csv")
+data = pandas.read_csv("day_25_projects/50_states.csv")
 all_states = data["state"].to_list()
 guessed_states = []
 

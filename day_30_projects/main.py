@@ -37,7 +37,7 @@ def save():
             "password": password,
         }
     }
-    # with open("data.json", "r") as data_file:
+    # with open("day_30_projects/data.json", "r") as data_file:
     # json.dump(new_data, data_file, indent= 4) # writing json data
     # data = json.load(data_file) #reading json data
     # print(type(data))
@@ -51,17 +51,17 @@ def save():
         messagebox.showinfo(title="Oops", message="Please make sure you haven't left any fields empty.")
     else:
         try:
-            with open("data.json", "r") as data_file:
+            with open("day_30_projects/data.json", "r") as data_file:
                 #Reading old data
                 data = json.load(data_file)
         except FileNotFoundError:
-            with open("data.json", "w") as data_file:
+            with open("day_30_projects/data.json", "w") as data_file:
                 json.dump(new_data, data_file, indent=4)
         else:
             #Updating old data with new data
             data.update(new_data)
 
-            with open("data.json", "w") as data_file:
+            with open("day_30_projects/data.json", "w") as data_file:
                 #Saving updated data
                 json.dump(data, data_file, indent=4)
         finally:
@@ -73,7 +73,7 @@ def save():
 def find_password():
     website = website_entry.get()
     try:
-        with open("data.json") as data_file:
+        with open("day_30_projects/data.json") as data_file:
             data = json.load(data_file)# reading json file
     except FileNotFoundError:
         messagebox.showinfo(title="Error", message="No Data File Found.")
