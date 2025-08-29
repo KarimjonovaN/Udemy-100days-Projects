@@ -14,38 +14,38 @@ This repository contains my implementations for the Udemy "100 Days of Code: The
 
 ## Project Index
 
-- `day_2_projects` – Tip Calculator
-- `day_3_projects` – Treasure Island (text adventure)
-- `day_4_projects` – Rock Paper Scissors
-- `day_5_projects` – Password Generator
-- `day_7_projects` – Hangman
-- `day_8_projects` – Caesar Cipher
-- `day_14_projects` – Higher or Lower
-- `day_15_projects` – Coffee Machine (procedural)
-- `day_17_projects` – Coffee Machine (OOP)
-- `day_18_projects` – Hirst Dot Painting
-- `day_19_projects` – Turtle Race / Event-driven basics
-- `day_20_projects` – Snake Game (Part 1)
-- `day_22_projects` – Pong Game (Turtle)
-- `day_23_projects` – Turtle Crossing (Car dodge)
-- `day_24_projects` – Files, Directories, and Paths
-- `day_25_projects` – CSV and Pandas basics
-- `day_26_projects` – List/Dict Comprehensions, NATO Alphabet
-- `day_27_projects` – Tkinter – Miles to Km Converter
-- `day_28_projects` – Tkinter – Pomodoro Timer
-- `day_29_projects` – Tkinter – Password Manager
-- `day_30_projects` – Errors, Exceptions, JSON
-- `day_31_projects` – Tkinter – Flash Card App
-- `day_32_projects` – Email/SMTP and DateTime
-- `day_34_projects` – Quiz App (OOP + UI)
-- `day_36_projects` – Stock/News API project
-- `day_37_projects` – Habit Tracking API
-- `day_38_projects` – Workout Tracking with Google Sheets
-- `day_40_projects` – Flight Deal Finder
-- `day_45_projects` – Web scraping / Selenium mini-project
-- `day_46_projects` – Amazon price tracker / Selenium
-- `day_47_projects` – Price scraping + email notifications
-- `extra_exercise` – Miscellaneous Python practice (data structures, patterns, turtle art)
+- [`day_2_projects`](day_2_projects/) – Tip Calculator
+- [`day_3_projects`](day_3_projects/) – Treasure Island (text adventure)
+- [`day_4_projects`](day_4_projects/) – Rock Paper Scissors
+- [`day_5_projects`](day_5_projects/) – Password Generator
+- [`day_7_projects`](day_7_projects/) – Hangman
+- [`day_8_projects`](day_8_projects/) – Caesar Cipher
+- [`day_14_projects`](day_14_projects/) – Higher or Lower
+- [`day_15_projects`](day_15_projects/) – Coffee Machine (procedural)
+- [`day_17_projects`](day_17_projects/) – Coffee Machine (OOP)
+- [`day_18_projects`](day_18_projects/) – Hirst Dot Painting
+- [`day_19_projects`](day_19_projects/) – Turtle Race / Event-driven basics
+- [`day_20_projects`](day_20_projects/) – Snake Game (Part 1)
+- [`day_22_projects`](day_22_projects/) – Pong Game (Turtle)
+- [`day_23_projects`](day_23_projects/) – Turtle Crossing (Car dodge)
+- [`day_24_projects`](day_24_projects/) – Files, Directories, and Paths
+- [`day_25_projects`](day_25_projects/) – CSV and Pandas basics
+- [`day_26_projects`](day_26_projects/) – List/Dict Comprehensions, NATO Alphabet
+- [`day_27_projects`](day_27_projects/) – Tkinter – Miles to Km Converter
+- [`day_28_projects`](day_28_projects/) – Tkinter – Pomodoro Timer
+- [`day_29_projects`](day_29_projects/) – Tkinter – Password Manager
+- [`day_30_projects`](day_30_projects/) – Errors, Exceptions, JSON
+- [`day_31_projects`](day_31_projects/) – Tkinter – Flash Card App
+- [`day_32_projects`](day_32_projects/) – Email/SMTP and DateTime
+- [`day_34_projects`](day_34_projects/) – Quiz App (OOP + UI)
+- [`day_36_projects`](day_36_projects/) – Stock/News API project
+- [`day_37_projects`](day_37_projects/) – Habit Tracking API
+- [`day_38_projects`](day_38_projects/) – Workout Tracking with Google Sheets
+- [`day_40_projects`](day_40_projects/) – Flight Deal Finder
+- [`day_45_projects`](day_45_projects/) – Web scraping / Selenium mini-project
+- [`day_46_projects`](day_46_projects/) – Amazon price tracker / Selenium
+- [`day_47_projects`](day_47_projects/) – Price scraping + email notifications
+- [`extra_exercise`](extra_exercise/) – Miscellaneous Python practice (data structures, patterns, turtle art)
 
 > For details, open the specific folder's `README.md`.
 
