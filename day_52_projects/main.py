@@ -6,13 +6,10 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import ElementClickInterceptedException
-from dotenv import load_dotenv
-
-load_dotenv()
 
 SIMILAR_ACCOUNT ="naaz_uz"
-INSTA_ACCOUNT= os.environ["INSTA_ACCOUNT"]
-PASSWORD = os.environ["PASSWORD"]
+INSTA_ACCOUNT= "lalalaa5011"
+PASSWORD = "zzkknnjjll"
 
 class InstaFollower:
     def __init__(self):
@@ -47,7 +44,7 @@ class InstaFollower:
         wait = WebDriverWait(self.driver, 10)
 
         follow_button = wait.until(
-            EC.element_to_be_clickable((By.XPATH, '//button[contains(text(), "Follow")]'))
+            EC.element_to_be_clickable((By.XPATH, '//button[.//div[text()="Follow"]]'))
         )
         follow_button.click()
         # for i in range(10):
@@ -59,8 +56,7 @@ class InstaFollower:
         following_button.click()
 
         time.sleep(2)
-        pop_up = self.driver.find_element(By.XPATH, '/html/body/div[5]/div[1]/div/div[2]/div/div/div/div/div[2]/div/div/div[2]/button[2]')
-        pop_up.click()
+
 
         time.sleep(2)
         following_buttons = self.driver.find_elements(By.XPATH, '//button[contains(., "Follow")]')
@@ -69,6 +65,10 @@ class InstaFollower:
             try:
                 button.click()
                 time.sleep(2)  # Delay between follows to prevent detection
+                # handle case when pop up is not displayed
+                pop_up = self.driver.find_element(By.XPATH, '/html/body/div[5]/div[1]/div/div[2]/div/div/div/div/div[2]/div/div/div[2]/button[2]')
+                pop_up.click()
+                time.sleep(2)
             except ElementClickInterceptedException:
                 print("Could not click button, skipping...")
                 continue
