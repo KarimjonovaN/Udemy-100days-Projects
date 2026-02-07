@@ -43,7 +43,7 @@ This repository contains my implementations for the Udemy "100 Days of Code: The
 - [`day_38_projects`](day_38_projects/) – Workout Tracking with Google Sheets
 - [`day_40_projects`](day_40_projects/) – Flight Deal Finder
 - [`day_45_projects`](day_45_projects/) – Web scraping / Selenium mini-project
-- [`day_46_projects`](day_46_projects/) – Amazon price tracker / Selenium
+- [`day_46_projects`](day_46_projects/) – Scraping Billboard 100
 - [`day_47_projects`](day_47_projects/) – Price scraping + email notifications
 - [`extra_exercise`](extra_exercise/) – Miscellaneous Python practice (data structures, patterns, turtle art)
 
