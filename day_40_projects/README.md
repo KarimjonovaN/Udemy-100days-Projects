@@ -1,4 +1,4 @@
-## Day 40 Projects
+## Flight Deal Finder Application
 
 Load environment variables from .env file
 
