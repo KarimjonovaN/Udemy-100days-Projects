@@ -45,6 +45,12 @@ This repository contains my implementations for the Udemy "100 Days of Code: The
 - [`day_45_projects`](day_45_projects/) – Web scraping / Selenium mini-project
 - [`day_46_projects`](day_46_projects/) – Amazon price tracker / Selenium
 - [`day_47_projects`](day_47_projects/) – Price scraping + email notifications
+- [`day_48_projects`](day_48_projects/) – Selenium – Python.org events scraper
+- [`day_49_projects`](day_49_projects/) – Selenium Gym Class Booker
+- [`day_51_projects`](day_51_projects/) – Internet Speed Twitter Bot (Selenium)
+- [`day_52_projects`](day_52_projects/) – Instagram Follower Bot (Selenium)
+- [`day_53_projects`](day_53_projects/) – Zillow data scrape + Google Form autofill
+- [`day_54_projects`](day_54_projects/) – Functions, higher-order functions, decorators
 - [`extra_exercise`](extra_exercise/) – Miscellaneous Python practice (data structures, patterns, turtle art)
 
 > For details, open the specific folder's `README.md`.

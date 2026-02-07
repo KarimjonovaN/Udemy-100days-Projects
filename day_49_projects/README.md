@@ -26,3 +26,4 @@ Automates logging into the sample Gym site and booking Tuesday/Thursday 6:00 PM 
 Note: The script uses a local Chrome user data directory (`chrome_profile`) to persist session data.
 
 
+
